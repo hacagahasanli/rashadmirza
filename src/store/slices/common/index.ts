@@ -1,20 +1,19 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-    hamburgerOpen: false
+    isOpenHamburger: false
 }
 
 const commonSlice = createSlice({
     name: "CommonSlice",
     initialState,
     reducers: {
-        openHamburger: (state, action) => {
+        openHamburger: (state, action:{payload:boolean}) => {
             const isOpened = action.payload
-            state.hamburgerOpen = isOpened;
+            state.isOpenHamburger = isOpened;
         }
     }
 })
 
 export const commonReducer = commonSlice.reducer
-
-export const {openHamburger}  = commonSlice.actions
+export const { openHamburger } = commonSlice.actions

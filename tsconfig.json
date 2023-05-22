@@ -6,7 +6,7 @@
       "assets/*": ["assets/*"],
       "components/*": ["components/*"],
       // "config/*": ["config/*"],
-      // "constants/*": ["constants/*"],
+      "constants/*": ["constants/*"],
       // "helpers/*": ["helpers/*"],
       // "hooks/*": ["hooks/*"],
       "store/*": ["store/*"],
