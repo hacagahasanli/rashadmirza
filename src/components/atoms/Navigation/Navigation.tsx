@@ -7,7 +7,7 @@ export const Navigations = memo(({ navigation, mobile }: INavigationsProp) => {
     const { parentClass, linkClass } = mobile ? MOBILE_NAV_CLASSES : DESKTOP_NAV_CLASSES
     return (
         <div className={parentClass}>
-            {navigation.map(({ name, href }) => (
+            {navigation?.map(({ name, href }) => (
                 <Link key={name} to={href} className={linkClass}>
                     {name}
                 </Link>

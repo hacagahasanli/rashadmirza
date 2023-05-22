@@ -7,7 +7,11 @@ export default {
     './src/styles.css', // Include your styles.css file here
   ],
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        'calc-screen-minus-header': 'calc(100vh - var(--header-height))',
+      },
+    },
   },
   plugins: [],
 }

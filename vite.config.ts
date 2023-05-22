@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // 'pages': path.resolve(__dirname, 'src/pages/index.ts'),
       'components': path.resolve(__dirname, 'src/components/index.ts'),
       // 'config': path.resolve(__dirname, 'src/config/index.ts'),
       'constants': path.resolve(__dirname, 'src/constants/index.ts'),
