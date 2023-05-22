@@ -21,8 +21,8 @@ export const Hamburger = ({ navigation }: { navigation: INavigation[] }) => {
                         <span className="sr-only">Your Company</span>
                         <img
                             className="h-8 w-auto"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                            alt=""
+                            src="https://rashadmirza.com/images/logo/logo-white.png"
+                            alt="logo"
                         />
                     </a>
                     <button

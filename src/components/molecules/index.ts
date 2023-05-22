@@ -1,3 +1,4 @@
+export { ContactSection } from './ContactSection';
 export { Hamburger } from './Hamburger';
 export { Header } from "./Header";
 export { HomeInfo } from './HomeInfo';
