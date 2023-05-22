@@ -6,10 +6,10 @@ import { Navigations, Logo } from 'components'
 export const Header = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     const navigation = [
-        { name: 'Product', href: '#' },
-        { name: 'Features', href: '#' },
-        { name: 'Marketplace', href: '#' },
-        { name: 'Company', href: '#' },
+        { name: 'Home', href: '/' },
+        { name: 'Blog', href: '/blog' },
+        { name: 'About', href: '/about' },
+        { name: 'Contact', href: '/contact' },
     ]
     return (
         <header className="bg-white">
