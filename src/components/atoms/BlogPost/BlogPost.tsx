@@ -10,7 +10,7 @@ export const BlogPost = ({ post }:IBlogPostProp) => {
                     <img src={"https://rashadmirza.com/storage/blog_photos/13.jpg"} alt="" />
                 </span>
             </div>
-            <h3 className="text-slate-900  text-base font-medium tracking-tight mt-4">{title}</h3>
+            <h3 className="text-slate-900  text-base font-semibold tracking-tight mt-4">{title}</h3>
             <p className="text-slate-500  mt-2 text-sm">{description}</p>
         </div>
     )

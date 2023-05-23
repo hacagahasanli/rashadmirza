@@ -8,7 +8,7 @@ export const HomeInfo = () => {
                     {texts.map((text) => <span className="text-[2.5rem] text-white" key={text}>{text}</span>)}
                     <button
                         type="button"
-                        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-[1rem]"
+                        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-[1.5rem]"
                     >
                         Hire Me
                     </button>

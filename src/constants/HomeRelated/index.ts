@@ -5,7 +5,7 @@ export const MOBILE_NAV_CLASSES = {
 
 export const DESKTOP_NAV_CLASSES = {
     parentClass: "hidden lg:flex lg:gap-x-12",
-    linkClass: "text-sm font-semibold leading-6 text-white"
+    linkClass: "text-md font-semibold leading-6 text-white"
 }
 
 export const navigation = [
