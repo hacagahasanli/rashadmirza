@@ -12,6 +12,7 @@ export const sentence = {
     }
 }
 
+
 export const letter = {
     hidden: { opacity: 0, y: 0 },
     visible: {
@@ -20,10 +21,15 @@ export const letter = {
     }
 }
 
-export const textAnimation = (value:string) => {
-    return value.split("").map((char:string, index:number) => (
+export const textAnimation = (value: string) => {
+    return value.split("").map((char: string, index: number) => (
         <motion.span key={char + index} variants={letter}>
             {char}
         </motion.span>
     ))
+}
+
+
+export const postAnimation = (index:number) => {
+    return { opacity: 1, y:0, transition: { duration: 1.2, delay: index/8 } }
 }

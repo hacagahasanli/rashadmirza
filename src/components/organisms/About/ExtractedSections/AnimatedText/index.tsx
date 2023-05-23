@@ -10,14 +10,16 @@ export const AnimatedText = () => {
     }
 
     const { line_one, line_two, line_three } = titles
-    
+
     return (
-        <motion.div variants={sentence} initial="hidden" animate="visible" className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
-            <h2 className="text-4xl font-bold tracking-tight text-[#f88400] sm:text-6xl">
-                {textAnimation(line_one)}
-            </h2>
-            <p className="mt-6 text-lg leading-8 text-white">{textAnimation(line_two)}</p>
-            <p className="mt-2 text-lg leading-8 text-white">{textAnimation(line_three)}</p>
-        </motion.div>
+        <div className="px-6 lg:px-8 ">
+            <motion.div variants={sentence} initial="hidden" animate="visible" className="mx-auto max-w-2xl pt-24 text-center sm:pt-40">
+                <h2 className="text-4xl font-bold tracking-tight text-[#f88400] sm:text-6xl">
+                    {textAnimation(line_one)}
+                </h2>
+                <p className="mt-6 text-lg leading-8 text-white">{textAnimation(line_two)}</p>
+                <p className="mt-2 text-lg leading-8 text-white">{textAnimation(line_three)}</p>
+            </motion.div>
+        </div>
     )
 }
