@@ -7,7 +7,7 @@ export const ContactSection = () => {
             <BackgroundSvg />
             <div className="mx-auto max-w-xl lg:max-w-4xl">
                 <ContactTitle />
-                <div className="mt-16 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
+                <div className="mt-8 flex flex-col gap-16 sm:gap-y-20 lg:flex-row">
                     <ContactForm />
                    <ContactInfo />
                 </div>

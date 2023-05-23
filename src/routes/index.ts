@@ -1,4 +1,4 @@
-import { Blog, Home, Contact } from "components";
+import { Blog, Home, Contact, About } from "components";
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
@@ -13,5 +13,9 @@ export const router = createBrowserRouter([
     {
         path: "/contact",
         Component: Contact
+    },
+    {
+        path: "/about",
+        Component: About
     }
 ])

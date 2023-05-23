@@ -11,6 +11,12 @@ export default {
       height: {
         'calc-screen-minus-header': 'calc(100vh - var(--header-height))',
       },
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+      },
     },
   },
   plugins: [],

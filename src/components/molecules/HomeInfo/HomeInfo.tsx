@@ -3,9 +3,9 @@ export const HomeInfo = () => {
 
     return (
         <div className="bg-[#111827] lg:h-calc-screen-minus-header w-full max-h-full">
-            <div className="max-w-6xl mx-auto min-h-calc-screen-minus-header h-full flex items-center justify-between p-4 flex-wrap">
+            <div className="max-w-6xl mx-auto min-h-calc-screen-minus-header h-full flex items-center justify-between p-4 flex-wrap mt-24">
                 <div className="lw-[420px] font-bold flex flex-col">
-                    {texts.map((text) => <span className="text-[2.5rem] text-white" key={text}>{text}</span>)}
+                    {texts.map((text) => <span className="lg:text-[2.5rem] text-white sm:text-[4.5rem]" key={text}>{text}</span>)}
                     <button
                         type="button"
                         className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-[1.5rem]"

@@ -1,6 +1,6 @@
 import { DESKTOP_NAV_CLASSES, MOBILE_NAV_CLASSES } from "../../../constants"
-import { memo, useEffect } from "react"
-import { Link, useLocation } from "react-router-dom"
+import { memo } from "react"
+import { Link } from "react-router-dom"
 import { INavigationsProp } from './INavigation';
 import { openHamburger } from "store";
 import { useDispatch, useSelector } from "react-redux";
@@ -12,9 +12,8 @@ export const Navigations = memo(({ navigation, mobile }: INavigationsProp) => {
     const dispatch = useDispatch()
 
     const hamburgerHandler = () => {
-        if(mobile && isOpenHamburger){
+        if(mobile && isOpenHamburger)
             dispatch(openHamburger(false))
-        }
     }   
 
     return (

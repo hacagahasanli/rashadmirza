@@ -29,7 +29,7 @@ export const ContactForm = () => {
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                 {inputs.map(({ id, label, type = "text", extraClass = "", rows, ...rest }: IContactInputs) => {
                     return (
-                        <div className={extraClass}>
+                        <div className={extraClass} key={id}>
                             <label htmlFor={id} className="block text-sm font-semibold leading-6 text-gray-900">
                                 {label}
                             </label>
