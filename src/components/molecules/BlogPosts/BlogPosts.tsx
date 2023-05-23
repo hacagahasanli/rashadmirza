@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { v4 } from "uuid"
 import { postAnimation } from "utils";
 
-
 export const BlogPosts = () => {
     return (
         <div className="lg:w-[1280px] flex flex-wrap p-4 mx-auto items-center gap-4">
