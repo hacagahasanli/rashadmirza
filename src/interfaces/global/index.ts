@@ -8,3 +8,9 @@ export interface IBlogPosts {
     title: string;
     description: string;
 }
+
+export interface IHamburgerState {
+    common: {
+        isOpenHamburger: boolean
+    }
+}

@@ -3,8 +3,7 @@ import { Navigations } from 'components'
 import { useDispatch, useSelector } from 'react-redux';
 import { openHamburger } from 'store';
 import { XMarkIcon } from '@heroicons/react/24/outline'
-import { IHamburgerState } from './IHamburger';
-import { INavigation } from 'interfaces';
+import { IHamburgerState, INavigation } from 'interfaces';
 
 export const Hamburger = ({ navigation }: { navigation: INavigation[] }) => {
     const dispatch = useDispatch()
