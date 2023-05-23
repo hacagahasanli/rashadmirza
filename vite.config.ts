@@ -10,7 +10,7 @@ export default defineConfig({
       'components': path.resolve(__dirname, 'src/components/index.ts'),
       // 'config': path.resolve(__dirname, 'src/config/index.ts'),
       'constants': path.resolve(__dirname, 'src/constants/index.ts'),
-      // 'helpers': path.resolve(__dirname, 'src/helpers/index.ts'),
+      'mocks': path.resolve(__dirname, 'src/mocks/index.ts'),
       // 'hooks': path.resolve(__dirname, 'src/hooks/index.ts'),
       'store': path.resolve(__dirname, 'src/store/index.ts'),
       // 'services': path.resolve(__dirname, 'src/services/index.ts'),

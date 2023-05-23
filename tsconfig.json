@@ -6,7 +6,7 @@
       "components/*": ["components/*"],
       // "config/*": ["config/*"],
       "constants/*": ["constants/*"],
-      // "helpers/*": ["helpers/*"],
+      "mocks/*": ["mocks/*"],
       // "hooks/*": ["hooks/*"],
       "store/*": ["store/*"],
       // "services/*": ["services/*"],

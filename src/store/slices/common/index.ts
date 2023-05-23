@@ -8,7 +8,7 @@ const commonSlice = createSlice({
     name: "CommonSlice",
     initialState,
     reducers: {
-        openHamburger: (state, action:{payload:boolean}) => {
+        openHamburger: (state, action: { payload: boolean }) => {
             const isOpened = action.payload
             state.isOpenHamburger = isOpened;
         }
