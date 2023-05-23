@@ -22,7 +22,7 @@ export default {
   plugins: [],
   purge: [
     "./src/components/**/*.{js,jsx}",
-    "./public/index.html",
+    "./index.html",
   ],
 }
 
