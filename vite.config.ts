@@ -15,7 +15,7 @@ export default defineConfig({
       'store': path.resolve(__dirname, 'src/store/index.ts'),
       // 'services': path.resolve(__dirname, 'src/services/index.ts'),
       // 'shared': path.resolve(__dirname, 'src/shared/index.ts'),
-      // 'utils': path.resolve(__dirname, 'src/utils/index.ts'),
+      'utils': path.resolve(__dirname, 'src/utils/index.ts'),
       'assets': path.resolve(__dirname, 'src/assets/index.ts'),
       // 'styles': path.resolve(__dirname, 'src/styles/index.ts'),
       'routes': path.resolve(__dirname, 'src/routes/index.ts'),

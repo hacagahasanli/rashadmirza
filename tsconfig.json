@@ -12,7 +12,7 @@
       // "services/*": ["services/*"],
       // "shared/*": ["shared/*"],
       // "styles/*": ["styles/*"],
-      // "utils/*": ["utils/*"],
+      "utils/*": ["utils/*"],
       "routes/*": ["routes/*"],
       "interfaces/*": ["interfaces/*"],
    },

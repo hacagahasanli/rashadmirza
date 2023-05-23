@@ -12,7 +12,7 @@ export default {
         'calc-screen-minus-header': 'calc(100vh - var(--header-height))',
       },
       screens: {
-        sm: '640px',
+        sm: '680px',
         md: '768px',
         lg: '1024px',
         xl: '1280px',
