@@ -7,6 +7,8 @@ export interface IBlogPosts {
     id?: string;
     title: string;
     description: string;
+    img?:string;
+    date:string;
 }
 
 export interface IHamburgerState {

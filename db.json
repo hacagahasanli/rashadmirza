@@ -1,0 +1,65 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Whispering Shadows",
+            "description": "Whispering Shadows is a gripping thriller that unravels the dark secrets of a small town.",
+            "date": "Last updated 2 years ago"
+          },
+          {
+            "id": 2,
+            "title": "Crimson Reflections",
+            "description": "Crimson Reflections takes you on an emotional journey through the life of Sarah, a talented artist haunted by her past.",
+            "date": "Updated 2 weeks ago"
+          },
+          {
+            "id": 3,
+            "title": "Luminary Dreams",
+            "description": "Luminary Dreams transports you to a futuristic world where dreams are the currency of power. In a society divided by dreamers and non-dreamers, young protagonist.",
+            "date": "Last updated 1 year ago"
+          },
+          {
+            "id": 4,
+            "title": "Midnight Serenade",
+            "description": "Midnight Serenade is a captivating love story set in the enchanting city of Paris. Follow the lives of Gabriel and Isabelle as their paths intertwine under the moonlit streets.",
+            "date": "Updated 5 days ago"
+          },
+          {
+            "id": 5,
+            "title": "Ember's Embrace",
+            "description": "Ember's Embrace is an epic fantasy tale that transports you to a world of magic and destiny. Join Ember, a young sorceress with a powerful gift, on her quest to unite the fractured realms and restore balance to a war-torn land.",
+            "date": "Last updated 3 months ago"
+          },
+          {
+            "id": 6,
+            "title": "Celestial Harmony",
+            "description": "Celestial Harmony is a mesmerizing symphony of science and spirituality. Journey through the cosmos as Dr. Michael Adams unravels the mysteries of the universe and discovers the interconnectedness of all things.",
+            "date": "Updated 2 weeks ago"
+          },
+          {
+            "id": 7,
+            "title": "Eternal Whispers",
+            "description": "Eternal Whispers weaves a tale of timeless love and undying devotion. Follow Sophia and Sebastian as they navigate the complexities of an unbreakable bond that transcends time itself.",
+            "date": "Last updated 6 months ago"
+          },
+          {
+            "id": 8,
+            "title": "Mystic Rhapsody",
+            "description": "Mystic Rhapsody invites you into a world where magic and music entwine. Journey alongside Melody, a gifted musician, as she unlocks the power of ancient melodies and embarks on a quest to restore harmony to a realm ravaged by discord.",
+            "date": "Updated 2 weeks ago"
+          },
+          {
+            "id": 9,
+            "title": "Cerulean Chronicles",
+            "description": "Cerulean Chronicles immerses you in a fantastical realm where sky pirates rule the skies and ancient secrets lie buried in forgotten ruins. Join Captain Arden and her intrepid crew as they embark on a high-flying adventure to reclaim.",
+            "date": "Last updated 3 weeks ago"
+          },
+          {
+            "id": 10,
+            "title": "Echoes of Eternity",
+            "description": "Echoes of Eternity follows the journey of Emily, a young archaeologist on a quest to unravel the mysteries of an ancient civilization.",
+            "date": "Updated 1 month ago"
+          }
+    ]
+  }
+  
