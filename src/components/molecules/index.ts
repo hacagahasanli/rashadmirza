@@ -1,3 +1,4 @@
+export { PostDetails } from './PostDetails';
 export { AnimatedImg } from './AnimatedImg';
 export { AnimatedText } from './AnimatedText';
 export { Stats } from './Stats';

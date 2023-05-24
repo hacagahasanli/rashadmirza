@@ -1,1 +1,2 @@
 export * from "./HomeRelated"
+export * from "./PostRelated"

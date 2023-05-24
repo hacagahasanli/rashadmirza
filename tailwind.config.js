@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        inter:['Inter', 'sans-serif']
+      },
       height: {
         'calc-screen-minus-header': 'calc(100vh - var(--header-height))',
       },
@@ -20,9 +23,5 @@ export default {
     },
   },
   plugins: [],
-  purge: [
-    "./src/components/**/*.{js,jsx}",
-    "./index.html",
-  ],
 }
 
