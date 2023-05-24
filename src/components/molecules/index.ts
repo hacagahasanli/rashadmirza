@@ -1,3 +1,6 @@
+export { AnimatedImg } from './AnimatedImg';
+export { AnimatedText } from './AnimatedText';
+export { Stats } from './Stats';
 export { ContactSection } from './ContactSection';
 export { Hamburger } from './Hamburger';
 export { Header } from "./Header";
