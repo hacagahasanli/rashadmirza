@@ -6,7 +6,8 @@ interface IInitialState {
 }
 
 const initialState: IInitialState = {
-    posts: []
+    posts: [],
+    // detailedPosts: []
 }
 
 const postsSlice = createSlice({
@@ -14,7 +15,7 @@ const postsSlice = createSlice({
     initialState,
     reducers: {
         setPosts: (state, action: { payload: IBlogPosts[] }) => {
-            const data = action.payload
+            const data = action?.payload
             state.posts = [...data];
         }
     }

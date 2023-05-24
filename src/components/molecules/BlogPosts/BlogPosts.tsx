@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from 'react-redux';
 import { setPosts } from "store";
 import { IPostState } from "./IBlogPosts";
-import axios from "axios";
+import { axiosInstance } from "client";
 import { v4 } from "uuid"
 
 export const BlogPosts = () => {
@@ -16,7 +16,7 @@ export const BlogPosts = () => {
         try {
             if (posts.length === 0) {
                 const fetchPosts = async () => {
-                    const result = await axios.get("http://localhost:3000/posts")
+                    const result = await axiosInstance("/posts")
                     const { data } = result
                     dispatch(setPosts(data))
                 }
@@ -25,7 +25,7 @@ export const BlogPosts = () => {
         } catch (err) {
             console.log(err)
         }
-    }, [dispatch])
+    }, [dispatch, posts.length])
 
     return (
         <div className="lg:w-[1280px] flex flex-wrap p-4 mx-auto items-center gap-4">

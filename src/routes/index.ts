@@ -1,4 +1,4 @@
-import { Blog, Home, Contact, About } from "components";
+import { Blog, Home, Contact, About, Post } from "components";
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
@@ -17,5 +17,14 @@ export const router = createBrowserRouter([
     {
         path: "/about",
         Component: About
-    }
+    },
+    // {
+    //     path: "/posts/:postId",
+    //     Component: Post,
+    //     loader: getPostLoader
+    // },
+    {
+        path: "/post",
+        Component: Post,
+    },
 ])
