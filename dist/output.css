@@ -630,10 +630,6 @@ video {
   margin-left: 0.75rem;
 }
 
-.ml-\[10rem\] {
-  margin-left: 10rem;
-}
-
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -684,10 +680,6 @@ video {
 
 .mt-\[8rem\] {
   margin-top: 8rem;
-}
-
-.mr-8 {
-  margin-right: 2rem;
 }
 
 .block {
@@ -1025,6 +1017,10 @@ video {
   background-color: rgb(250 204 21 / 0.1);
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .fill-gray-50 {
   fill: #f9fafb;
 }
@@ -1164,12 +1160,12 @@ video {
   line-height: 2.5rem;
 }
 
-.text-\[3rem\] {
-  font-size: 3rem;
+.text-\[2rem\] {
+  font-size: 2rem;
 }
 
-.text-\[5rem\] {
-  font-size: 5rem;
+.text-\[3rem\] {
+  font-size: 3rem;
 }
 
 .text-base {
@@ -1195,10 +1191,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[2rem\] {
-  font-size: 2rem;
 }
 
 .font-bold {
@@ -1384,12 +1376,12 @@ video {
   --tw-ring-color: rgb(248 113 113 / 0.2);
 }
 
-.ring-slate-900\/5 {
-  --tw-ring-color: rgb(15 23 42 / 0.05);
-}
-
 .ring-yellow-400\/20 {
   --tw-ring-color: rgb(250 204 21 / 0.2);
+}
+
+.ring-slate-900\/5 {
+  --tw-ring-color: rgb(15 23 42 / 0.05);
 }
 
 .transition {
