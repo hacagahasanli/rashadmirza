@@ -8,7 +8,7 @@ export interface IBlogPosts {
     title: string;
     description: string;
     img?:string;
-    date:string;
+    date?:string;
 }
 
 export interface IHamburgerState {

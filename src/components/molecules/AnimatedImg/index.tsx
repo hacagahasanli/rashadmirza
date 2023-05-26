@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
-import { IImages } from '../IExtractedSection';
-
+export interface IImages {
+    id: string;
+    icon: any;
+    delay: number;
+}
 
 export const AnimatedImg = () => {
     const images: IImages[] = [

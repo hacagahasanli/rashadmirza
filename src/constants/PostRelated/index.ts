@@ -8,3 +8,4 @@ export const badgeColors = [
     'bg-purple-400/10 text-purple-400 ring-purple-400/30',
     'bg-pink-400/10 text-pink-400 ring-pink-400/20'
 ]
+
